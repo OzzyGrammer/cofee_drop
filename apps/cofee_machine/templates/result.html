@@ -1,0 +1,21 @@
+
+<style>
+
+.btn-secondary {
+    background-color: #6c757d;
+  }
+.btn-primary {
+    background-color: #125c9d;
+  }
+</style>
+
+{% if result %}
+<a href="{% url 'home' %}" class="btn btn-secondary">Go Home</a>
+  <h3>Result:</h3>
+  <p>{{ result }}</p>
+  <a href="{% url 'order' %}" class="btn btn-primary"><span>Make another order</span>
+</a>
+
+{% endif %}
+
+

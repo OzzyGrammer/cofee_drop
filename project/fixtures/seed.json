@@ -1,0 +1,248 @@
+[
+    {
+        "model": "coffee_machine.ingredient",
+        "pk": 1,
+        "fields": {
+            "created": "2023-06-23T16:50:11.753Z",
+            "modified": "2023-06-23T18:46:20.856Z",
+            "name": "Coffee",
+            "amount": "250.00"
+        }
+    },
+    {
+        "model": "coffee_machine.ingredient",
+        "pk": 2,
+        "fields": {
+            "created": "2023-06-23T16:50:25.307Z",
+            "modified": "2023-06-23T18:45:54.658Z",
+            "name": "Milk",
+            "amount": "250.00"
+        }
+    },
+    {
+        "model": "coffee_machine.ingredient",
+        "pk": 3,
+        "fields": {
+            "created": "2023-06-23T16:50:54.349Z",
+            "modified": "2023-06-23T18:46:20.852Z",
+            "name": "Water",
+            "amount": "750.00"
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 1,
+        "fields": {
+            "created": "2023-06-23T17:25:45.733Z",
+            "modified": "2023-06-23T17:25:45.733Z",
+            "ingredient_mix": null,
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 2,
+        "fields": {
+            "created": "2023-06-23T17:26:00.796Z",
+            "modified": "2023-06-23T17:26:00.796Z",
+            "ingredient_mix": null,
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 3,
+        "fields": {
+            "created": "2023-06-23T17:26:27.766Z",
+            "modified": "2023-06-23T17:26:27.766Z",
+            "ingredient_mix": null,
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 4,
+        "fields": {
+            "created": "2023-06-23T17:30:44.032Z",
+            "modified": "2023-06-23T17:30:44.032Z",
+            "ingredient_mix": "test",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 5,
+        "fields": {
+            "created": "2023-06-23T17:43:56.401Z",
+            "modified": "2023-06-23T17:43:56.401Z",
+            "ingredient_mix": "coffee strength NORMAL",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 6,
+        "fields": {
+            "created": "2023-06-23T17:56:09.824Z",
+            "modified": "2023-06-23T17:56:09.824Z",
+            "ingredient_mix": "coffee strength NORMAL",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 7,
+        "fields": {
+            "created": "2023-06-23T18:10:09.007Z",
+            "modified": "2023-06-23T18:10:09.007Z",
+            "ingredient_mix": "coffee strength NORMAL with milk",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 8,
+        "fields": {
+            "created": "2023-06-23T18:10:18.190Z",
+            "modified": "2023-06-23T18:10:18.190Z",
+            "ingredient_mix": "coffee strength NORMAL",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 9,
+        "fields": {
+            "created": "2023-06-23T18:11:27.910Z",
+            "modified": "2023-06-23T18:11:27.910Z",
+            "ingredient_mix": "coffee strength NORMAL with milk",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 10,
+        "fields": {
+            "created": "2023-06-23T18:34:56.798Z",
+            "modified": "2023-06-23T18:34:56.798Z",
+            "ingredient_mix": "coffee strength NORMAL",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 11,
+        "fields": {
+            "created": "2023-06-23T18:39:07.442Z",
+            "modified": "2023-06-23T18:39:07.442Z",
+            "ingredient_mix": "coffee strength NORMAL",
+            "strength": "NORMAL",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 12,
+        "fields": {
+            "created": "2023-06-23T18:44:34.516Z",
+            "modified": "2023-06-23T18:44:34.516Z",
+            "ingredient_mix": "coffee strength NORMAL with milk frothed",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": true
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 13,
+        "fields": {
+            "created": "2023-06-23T18:44:43.287Z",
+            "modified": "2023-06-23T18:44:43.287Z",
+            "ingredient_mix": "coffee strength NORMAL with milk",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 14,
+        "fields": {
+            "created": "2023-06-23T18:45:54.629Z",
+            "modified": "2023-06-23T18:45:54.629Z",
+            "ingredient_mix": "coffee strength NORMAL with milk",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 15,
+        "fields": {
+            "created": "2023-06-23T18:46:04.460Z",
+            "modified": "2023-06-23T18:46:04.460Z",
+            "ingredient_mix": "coffee strength STRONG with milk frothed",
+            "strength": "STRONG",
+            "add_milk": true,
+            "froth_milk": true
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 16,
+        "fields": {
+            "created": "2023-06-23T18:46:20.826Z",
+            "modified": "2023-06-23T18:46:20.826Z",
+            "ingredient_mix": "coffee strength EXTRA_STRONG with milk frothed",
+            "strength": "EXTRA_STRONG",
+            "add_milk": true,
+            "froth_milk": true
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 17,
+        "fields": {
+            "created": "2023-06-23T19:45:55.352Z",
+            "modified": "2023-06-23T19:45:55.352Z",
+            "ingredient_mix": "coffee strength NORMAL with milk",
+            "strength": "NORMAL",
+            "add_milk": true,
+            "froth_milk": false
+        }
+    },
+    {
+        "model": "coffee_machine.order",
+        "pk": 18,
+        "fields": {
+            "created": "2023-06-23T20:04:31.843Z",
+            "modified": "2023-06-23T20:04:31.843Z",
+            "ingredient_mix": "coffee strength None",
+            "strength": "Coffee",
+            "add_milk": false,
+            "froth_milk": false
+        }
+    }
+    ]
